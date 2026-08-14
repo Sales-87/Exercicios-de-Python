@@ -1,5 +1,3 @@
-
-for n in range(1, 4):
 n1 = int(input("Digite um numero: "))
 n2 = int(input("Digite outro numero: "))
 n3 = int(input("Digite outro numer: "))
@@ -18,8 +16,25 @@ elif n2 < n3:
 else:
     print(f"O menor numero é {n3}")
 
-par = int
+par = 0
+imp = 0
 if n1 % 2 == 0:
     par = par + 1
 
-print(f"Temo {par} Pares")
+if n2 % 2 == 0:
+    par = par + 1
+
+if n3 % 2 == 0:
+    par = par + 1
+
+if n1 % 2 == 1:
+    imp = imp + 1
+
+if n2 % 2 == 1:
+    imp = imp + 1
+
+if n3 % 2 == 1:
+    imp = imp + 1
+
+print(f"Temos {par} numeros Pares")
+print(f"Temos {imp} numeros Impares")
