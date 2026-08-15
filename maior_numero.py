@@ -1,6 +1,6 @@
 n1 = int(input("Digite um numero: "))
 n2 = int(input("Digite outro numero: "))
-n3 = int(input("Digite outro numer: "))
+n3 = int(input("Digite outro numero: "))
 
 if n1 > n2 and n1 > n3:
     print(f"O maior numero é {n1}")
